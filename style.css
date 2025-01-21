@@ -1,0 +1,49 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    background: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.box {
+    width: 300px;
+    height: 450px;
+    background: #ffffff;
+    display: flex;
+    border: 10px solid black; /* Define largura, estilo e cor */
+    border-radius: 5%;
+    flex-direction: column;
+}
+
+.visor {
+    background-color: black;
+    height: 80px;
+    width: 300px;
+    justify-content: left;
+    align-items: center;
+    display: flex;
+}
+.texto-visor {
+    color: #ffffff;
+    margin-left: 15px;
+    font-size: 50px;
+}
+.botoes-numero-linha {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.container-botoes-numeros {
+    /* justify-content: space-around; */
+    color: aquamarine;
+    height: 50px;
+    width: 50px;
+}
+.texto-numero-botoes-linha {
+    font-size: 50px;
+}
+body {
+margin: 0px;
+}
